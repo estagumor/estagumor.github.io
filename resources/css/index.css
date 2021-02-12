@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
+    background-size: cover;
+}
+
+/*HEADER*/
+
+body header nav {
+    text-align: right;
+    text-transform: uppercase;
+    padding: 0.5em;
+    background-color: rgba(0,128,128, 0.6);
+}
+
+body header nav a {
+    padding: 0.5em;
+}
+
+body header nav a:link, body header nav a:visited {
+    color: white;
+}
+
+body header nav a:hover {
+    color: rgb(0, 89, 255);
+}
+
+/*
+body header nav a:active {
+    color: white;
+}
+*/
+
+body header h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    body header h1 {
+        font-size: 5em;
+    }
+}
+
+@media (min-width: 401px) {
+    body header h1 {
+        font-size: 10em;
+    }
+}
+
+/*MAIN*/
+
+main {
+    background-color:aliceblue;
+    padding: 2em;
+}
+
+.introduction {
+    padding: 1em;
+}
+
+.profile-pic {
+    text-align: center;
+}
+
+.profile-pic img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/*FOOTER*/
+
+body footer {
+    text-align: right;
+    background-color: rgba(0,128,128, 0.6);
+}
+
+body footer p {
+    padding: 0.5em;
+    color: white;
+}

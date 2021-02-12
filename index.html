@@ -1,9 +1,58 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Welcome</h1>
-  <p>I'll make this page beauty some day!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--css-->
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/a86b7c9ee5.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#about-me">About me</a>
+        <a href="#media">Media</a>
+      </nav>
+      <h1>Welcome</h1>
+    </header>
+    <div class="container">
+      <main>
+        <section id="about-me" class="row">
+            <div class="col-9 introduction">
+              <p>I'm a young Software engineer with a lot of hobbies that loves learn new things. I studied Software Engineering at Seville's university and I'm working since 2019.</p>
+              <p>I usually spend my days watching anime, series and movies; reading some manga, playing videogames or learning new software stuff. I also love listening to music and draw. </p>
+              <p>I'm currently learning front end development at codecademy and building a game with a friend. </p>
+              <p><strong>This page is still in progress!</strong></p>
+            </div>
+            <div class="col-3 profile-pic">
+              <img src="./resources/images/IMG_20200830_001110_778.jpg"/>
+            </div>
+        </section>
+        <section id="proyects">
+          
+        </section>
+        <section id="media">
+          <a href="mailto:esagmo96@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-lg"></i></a>
+          <a href="https://github.com/estagumor" target="_blank"><i class="fab fa-github-square fa-lg"></i></a>
+          <a href="" target="_blank"><i class="fab fa-skype fa-lg"></i></a>
+        </section>
+      </main>
+      <footer>
+        <p>
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
